@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AgriConnect | From Farms to Markets</title>
+<style>
+:root{--green:#245b3b;--green2:#39794e;--cream:#f7f6ed;--gold:#e6b84b;--ink:#203126}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--cream);line-height:1.6}
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 7%;background:#fff;position:sticky;top:0;box-shadow:0 2px 12px #0000000c}
+.logo{font-size:1.35rem;font-weight:800;color:var(--green)}nav a{margin-left:22px;color:var(--ink);text-decoration:none;font-weight:600;font-size:.95rem}
+.hero{padding:90px 7%;background:linear-gradient(110deg,#183f2cdd,#245b3bcc),url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1800&q=85') center/cover;color:white}
+.hero-inner{max-width:760px}.eyebrow{color:#f6d77c;font-weight:700;letter-spacing:2px;text-transform:uppercase;font-size:.8rem}
+h1{font-size:clamp(2.5rem,6vw,4.7rem);line-height:1.08;margin:16px 0} .hero p{font-size:1.15rem;max-width:650px;color:#f1f4ed}
+.btn{display:inline-block;background:var(--gold);color:#203126;padding:13px 22px;border-radius:7px;text-decoration:none;font-weight:800;margin:12px 10px 0 0}
+.btn.alt{background:transparent;border:1px solid #fff;color:white}
+section{padding:65px 7%}.section-head{text-align:center;max-width:720px;margin:0 auto 35px}.section-head h2{font-size:2.1rem;color:var(--green);margin:0 0 10px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}.card{background:#fff;padding:25px;border-radius:13px;box-shadow:0 8px 24px #173d2410}.card .icon{font-size:2rem}.card h3{color:var(--green);margin:10px 0 5px}
+.steps{background:#e9efe5}.stepnum{display:inline-grid;place-items:center;width:38px;height:38px;border-radius:50%;background:var(--green);color:white;font-weight:bold}
+.callout{background:var(--green);color:white;text-align:center;padding:55px 7%}.callout h2{font-size:2rem;margin:0 0 10px}.callout p{max-width:680px;margin:0 auto 16px;color:#e7efe7}
+footer{padding:25px 7%;background:#173b29;color:#e8eee8;text-align:center;font-size:.9rem}
+@media(max-width:650px){header{align-items:flex-start;gap:10px;flex-direction:column}nav a{margin:0 14px 0 0}.hero{padding:65px 7%}section{padding:48px 7%}}
+</style>
+</head>
+<body>
+<header><div class="logo">🌱 AgriConnect</div><nav><a href="#about">About</a><a href="#features">Features</a><a href="#how">How it works</a><a href="#contact">Contact</a></nav></header>
+<main>
+<div class="hero"><div class="hero-inner"><div class="eyebrow">A smarter agricultural marketplace</div><h1>From farms to markets, with better connections.</h1><p>AgriConnect brings farmers, reliable buyers and transporters together—helping farmers find better market opportunities, arrange affordable delivery and turn agricultural by-products into added value.</p><a class="btn" href="#how">Explore how it works</a><a class="btn alt" href="#contact">Get in touch</a></div></div>
+<section id="about"><div class="section-head"><h2>Making agricultural trade simpler</h2><p>Farmers deserve fair opportunities and dependable market access. AgriConnect aims to make selling produce and finding the right business partners easier, more transparent and more efficient.</p></div></section>
+<section id="features"><div class="section-head"><h2>One platform. More opportunities.</h2><p>Useful connections across the agricultural supply chain.</p></div><div class="cards">
+<div class="card"><div class="icon">🤝</div><h3>Find reliable buyers</h3><p>Help farmers connect with potential buyers and discover more selling opportunities.</p></div>
+<div class="card"><div class="icon">💹</div><h3>Better price discovery</h3><p>Make it easier to compare offers and negotiate fair prices before harvest.</p></div>
+<div class="card"><div class="icon">🚚</div><h3>Arrange transportation</h3><p>Connect with transporters to coordinate affordable and timely delivery.</p></div>
+<div class="card"><div class="icon">♻️</div><h3>Use crop residues</h3><p>Connect agricultural by-products and crop residues with businesses that can reuse them.</p></div>
+</div></section>
+<section class="steps" id="how"><div class="section-head"><h2>How AgriConnect works</h2><p>A straightforward journey from listing produce to delivery.</p></div><div class="cards">
+<div class="card"><span class="stepnum">1</span><h3>List your produce</h3><p>Farmers share the crop, quantity, quality and expected availability.</p></div>
+<div class="card"><span class="stepnum">2</span><h3>Connect with buyers</h3><p>Buyers discover listings, discuss requirements and make offers.</p></div>
+<div class="card"><span class="stepnum">3</span><h3>Coordinate delivery</h3><p>Farmers and buyers connect with transporters and agree on delivery arrangements.</p></div>
+<div class="card"><span class="stepnum">4</span><h3>Complete the sale</h3><p>The parties confirm the transaction and coordinate timely delivery.</p></div>
+</div></section>
+<div class="callout" id="contact"><h2>Let's build better connections in agriculture.</h2><p>Are you a farmer, buyer, transporter or business interested in agricultural by-products? Connect with the AgriConnect team.</p><a class="btn" href="mailto:your-email@example.com?subject=AgriConnect%20Enquiry">Contact AgriConnect</a><p style="font-size:.85rem;margin-top:18px">Replace this placeholder email with your project contact email before publishing.</p></div>
+</main>
+<footer>© 2026 AgriConnect · Connecting farms, buyers and transporters</footer>
+</body></html>
